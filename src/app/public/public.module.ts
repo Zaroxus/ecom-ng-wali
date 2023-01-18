@@ -5,12 +5,14 @@ import { HomeComponent } from './home/home.component';
 import { ShopComponent } from './shop/shop.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
     PublicComponent,
     HomeComponent,
-    ShopComponent
+    ShopComponent,
+    ProductDetailsComponent
   ],
   imports: [
     CommonModule,
